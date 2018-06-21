@@ -31,7 +31,7 @@ In this workshop we will prepare a GIF for use on social media using SVG Crowbar
 
 ## Record it with QuickTime
 
-1.  Open this interactive in Chrome, have a look at it
+1.  Open [this interactive](https://www.economist.com/graphic-detail/2017/12/25/china-is-still-a-toy-manufacturing-powerhouse) in Chrome, have a look at it
 
     * Right click on the bubble chart
     * Select ‘inspect element’
@@ -42,13 +42,35 @@ In this workshop we will prepare a GIF for use on social media using SVG Crowbar
 
 2.  Open QuickTime player, do a screen recording of the bubble chart
 
-    * Right click on the application
-    * Select “New screen recording”
+    * Click on “File” and select “New screen recording”
     * Click on the red recording button
     * Click and drag to record part of the screen
     * Select the area of the chart
-    * Start recording (a good resolution if your screen is big enough is 1920x1080)
-    * When done, right click on the application and select ‘Stop screen recording’
+    * Now you can open the Developer Tools and remove different elements to have a clean canvas
+		* Remove the divs with the classes `.interactive-header` and `.toggle-bar`
+		* With the DevTools open find the span with the class `.year` and add the following styles
+```
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+top: 40px;
+````
+	  * Find the div with the class `.restart` and add the following styles
+```
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: -95px;
+right: 0;
+top: 40px
+opacity: 0;
+````
+		* Now the icon to restart the graphic is hidden but you'll be able to click it anyway.
+    * Click on the hidden restart icon and start recording (a good resolution if your screen is big enough is 1920x1080)
+    * When done, click on the QuickTime icon on the tray and select ‘Stop screen recording’
+		* Click on "Edit" and "Trim" and you'll be able to cut the video as you wish
     * Save the video
 
 3.  Open Photoshop
