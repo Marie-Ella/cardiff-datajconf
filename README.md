@@ -67,6 +67,7 @@ left: 0;
 right: 0;
 top: 40px;
 ```
+
 	* Find the div with the class `.restart` and add the following styles
 ```
 position: absolute;
