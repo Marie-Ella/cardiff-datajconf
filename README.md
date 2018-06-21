@@ -66,7 +66,7 @@ margin-right: auto;
 left: 0;
 right: 0;
 top: 40px;
-````
+```
 	* Find the div with the class `.restart` and add the following styles
 ```
 position: absolute;
@@ -77,6 +77,7 @@ right: 0;
 top: 40px
 opacity: 0;
 ```
+
 	* Now the icon to restart the graphic is hidden but you'll be able to click it anyway.
     * Click on the hidden restart icon and start recording (a good resolution if your screen is big enough is 1920x1080)
     * When done, click on the QuickTime icon on the tray and select ‘Stop screen recording’
