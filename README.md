@@ -10,12 +10,11 @@ In this workshop we will prepare a GIF for use on social media using SVG Crowbar
 * Illustrator
 * QuickTime player
 
-## Do it with Illustrator & Photoshop
+## Storytelling with Illustrator & Photoshop
 
 1.  Check this snazzy [house price interactive](https://www.economist.com/graphic-detail/2018/02/09/the-economist-house-price-indices)
 
 2.  Use SVG Crowbar, just click on the bookmark
-
     * Find the right .svg file and download it
     * Open in illustrator
     * Turn background white
@@ -26,10 +25,21 @@ In this workshop we will prepare a GIF for use on social media using SVG Crowbar
 3.  Open one of the files in Photoshop, add the other one as a new layer
 
 4.  Create a frame animation with both files
+    * Select the "Window" tab and tick "Timeline"
+    * Click on the "Create Frame Animation" in your new timeline at the bottom of the window
+    * Go to the menu button (the four lines in the top right corner of the timeline) and select "Make Frames from Layers"
+    * Now all your layers are frames in your timeline and you can select how long each frame will be shown for and get them in the right         order
+    * Save it as a gif by clicking “File” -> “Export” -> “Save for Web”
+    * Select GIF in the top right corner
+    * Play around with “Lossy”, “Dither” and “Web snap” and see how it changes the preview
+    * Make sure “Looping options” are set to forever
+    * Click “Save” (not “Done”)
+    * Et voila. You’ve created your first data gif, congratulations!
+    * Look at it in different browsers, on your computer, on slack. Notice any differences?
 
 5.  Now you’ve got a self-made .gif showing the chart in a unique way for social media. You could use a template with it, add text and so on and so forth
 
-## Record it with QuickTime
+## Recording with QuickTime
 
 1.  Open [this interactive](https://www.economist.com/graphic-detail/2017/12/25/china-is-still-a-toy-manufacturing-powerhouse) in Chrome, have a look at it
 
@@ -75,14 +85,13 @@ opacity: 0;
 
 3.  Open Photoshop
     * Select “File” -> “Import” -> “Video frames to layers”
-    * Select the range you want by using the sliders below the preview limit to every 2 frames (it will get more shroppy, but the file size will decrease if you choose less frames. It will cut off after - 500 frames anyway. You can manually delete frames later as well)
-    * Click “Window” -> “Timeline”, a timeline will pop up below your normal preview. The timeline shows all layers, now converted to - frames like in a video (or gif!)
-    * Select a time period you want the first frame to be shown for (some web pages will automatically show the first frame of a gif for at least at least second, but this differs). You can just change the time underneath each frame
-    * If you want to change the time for all frames, you can click on the first, hold down shift and select the last. Now you can change the time on any of the frames and it will change for the others as well
-    * Save it as a gif by clicking “File” -> “Export” -> “Save for Web”
+    * Select the range you want by using the sliders below the preview limit to every 2 frames (it will get more shroppy, but the file           size will decrease if you choose less frames. It will cut off after - 500 frames anyway. You can manually delete frames later as           well)
+    * Click “Window” -> “Timeline”, a timeline will pop up below your normal preview. The timeline shows all layers, now converted to -         frames like in a video (or gif!)
+    * Select a time period you want the first frame to be shown for (some web pages will automatically show the first frame of a gif for         at least at least second, but this differs). You can just change the time underneath each frame
+    * If you want to change the time for all frames, you can click on the first, hold down shift and select the last. Now you can change         the time on any of the frames and it will change for the others as well
+     * Save it as a gif by clicking “File” -> “Export” -> “Save for Web”
     * Select GIF in the top right corner
     * Play around with “Lossy”, “Dither” and “Web snap” and see how it changes the preview
     * Make sure “Looping options” are set to forever
     * Click “Save” (not “Done”)
-    * Et voila. You’ve created your first data gif, congratulations!
-    * Look at it in different browsers, on your computer, on slack. Notice any differences?
+   
