@@ -57,8 +57,8 @@ In this workshop we will prepare a GIF for use on social media using SVG Crowbar
     * Click and drag to record part of the screen
     * Select the area of the chart
     * Now you can open the Developer Tools and remove different elements to have a clean canvas
-		* Remove the divs with the classes `.interactive-header` and `.toggle-bar`
-		* With the DevTools open find the span with the class `.year` and add the following styles
+	* Remove the divs with the classes `.interactive-header` and `.toggle-bar`
+	* With the DevTools open find the span with the class `.year` and add the following styles
 ```
 position: absolute;
 margin-left: auto;
@@ -67,7 +67,7 @@ left: 0;
 right: 0;
 top: 40px;
 ````
-	  * Find the div with the class `.restart` and add the following styles
+	* Find the div with the class `.restart` and add the following styles
 ```
 position: absolute;
 margin-left: auto;
@@ -76,11 +76,11 @@ left: -95px;
 right: 0;
 top: 40px
 opacity: 0;
-````
-		* Now the icon to restart the graphic is hidden but you'll be able to click it anyway.
+```
+	* Now the icon to restart the graphic is hidden but you'll be able to click it anyway.
     * Click on the hidden restart icon and start recording (a good resolution if your screen is big enough is 1920x1080)
     * When done, click on the QuickTime icon on the tray and select ‘Stop screen recording’
-		* Click on "Edit" and "Trim" and you'll be able to cut the video as you wish
+	* Click on "Edit" and "Trim" and you'll be able to cut the video as you wish
     * Save the video
 
 3.  Open Photoshop
@@ -89,9 +89,8 @@ opacity: 0;
     * Click “Window” -> “Timeline”, a timeline will pop up below your normal preview. The timeline shows all layers, now converted to -         frames like in a video (or gif!)
     * Select a time period you want the first frame to be shown for (some web pages will automatically show the first frame of a gif for         at least at least second, but this differs). You can just change the time underneath each frame
     * If you want to change the time for all frames, you can click on the first, hold down shift and select the last. Now you can change         the time on any of the frames and it will change for the others as well
-     * Save it as a gif by clicking “File” -> “Export” -> “Save for Web”
+    * Save it as a gif by clicking “File” -> “Export” -> “Save for Web”
     * Select GIF in the top right corner
     * Play around with “Lossy”, “Dither” and “Web snap” and see how it changes the preview
     * Make sure “Looping options” are set to forever
     * Click “Save” (not “Done”)
-   
